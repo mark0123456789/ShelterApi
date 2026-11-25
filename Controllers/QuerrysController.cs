@@ -23,6 +23,9 @@ namespace ShelterApi.Controllers
         
         }
         [HttpGet("/queries/animalCountByShelter")]
-             public async Task<IActionResult>
+        public async Task<IActionResult> OrderSheltersByAnimalCount() 
+        {
+        
+        }
     }
 }
