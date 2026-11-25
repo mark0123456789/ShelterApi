@@ -14,4 +14,6 @@ public partial class Shelter
     public int Capacity { get; set; }
 
     public DateTime? RegTime { get; set; }
+
+    public virtual ICollection<Animal> Animals { get; set; } = new List<Animal>();
 }
