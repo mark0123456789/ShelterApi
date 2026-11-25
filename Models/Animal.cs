@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace ShelterApi.Models;
 
@@ -19,5 +20,6 @@ public partial class Animal
 
     public Guid ShelterId { get; set; }
 
+    [JsonIgnore]
     public virtual Shelter Shelter { get; set; } = null!;
 }
