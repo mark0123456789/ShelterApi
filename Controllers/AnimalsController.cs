@@ -25,6 +25,16 @@ namespace ShelterApi.Controllers
         {
         
         }
+        [HttpPut("/animals/update?id=")]
+        public async Task<IActionResult> UpdateAnimalById() 
+        {
+        
+        }
+        [HttpDelete("/animals/deleteAnimal?id=")]
+        public async Task<IActionResult> DeleteAnimalById() 
+        {
+
+        }
 
     }
 }
